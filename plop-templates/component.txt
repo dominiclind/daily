@@ -1,0 +1,25 @@
+import React, { Component } from 'react';
+
+import {
+  View,
+  StyleSheet,
+} from 'react-native';
+
+import { Text,H1,H2 } from 'app/components/Type';
+
+const {{properCase name}} = (props) => (
+  <View style={styles.component}>
+  	<Text>i am component {{properCase name}}</Text>
+  </View>
+)
+
+
+// styles
+const styles = StyleSheet.create({
+  component : {
+    backgroundColor:'blue'
+  }
+});
+
+
+export default {{properCase name}}
