@@ -1,4 +1,11 @@
 PODS:
+  - AppCenter/Analytics (1.0.1):
+    - AppCenter/Core
+  - AppCenter/Core (1.0.1)
+  - AppCenter/Crashes (1.0.1):
+    - AppCenter/Core
+  - AppCenterReactNativeShared (1.0.1):
+    - AppCenter/Core (= 1.0.1)
   - Bolts (1.8.4):
     - Bolts/AppLinks (= 1.8.4)
     - Bolts/Tasks (= 1.8.4)
@@ -13,16 +20,21 @@ PODS:
     - FBSDKCoreKit
 
 DEPENDENCIES:
+  - AppCenter/Analytics (~> 1.0.1)
+  - AppCenter/Crashes (~> 1.0.1)
+  - AppCenterReactNativeShared (~> 1.0.1)
   - FBSDKCoreKit
   - FBSDKLoginKit
   - FBSDKShareKit
 
 SPEC CHECKSUMS:
+  AppCenter: 1d9e08e4ffe7a8eab6e9741a12d27e44074e73a7
+  AppCenterReactNativeShared: d7238832c02bd37019083045ed9fa24ba3193779
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
   FBSDKCoreKit: 53e3f4bfb64e80c5f229dd30ae33ff57fbbbd2d1
   FBSDKLoginKit: f628c09684dae9c17f071cf90b014e886f5093ea
   FBSDKShareKit: aea699d3cac749af08e360f4e949b82ffa8813f5
 
-PODFILE CHECKSUM: d3bd7792e3f907d95e6b586816578b2b62937902
+PODFILE CHECKSUM: 3f3984d79d65d3273a0ca16bed91acd098527eb9
 
 COCOAPODS: 1.2.1

@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -27,6 +28,7 @@
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		169AB356E7D642C984CCFC43 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B095E5B15AA4AF3953F4A58 /* Foundation.ttf */; };
 		1B380E12FC9A458E9BB9EF7F /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26CA1EE1F9D4464F95F9D54F /* Ionicons.ttf */; };
+		200802F0FD8A4F02A6CC5F13 /* Colfax-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE4C8403CDF540DDAF2499C2 /* Colfax-Black.ttf */; };
 		2624090AAD074B5AB71DDA6A /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD602C1B41404F86A35654FF /* Octicons.ttf */; };
 		27F17E620A74468D82D211A6 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E07437C1ED6423592178980 /* MaterialCommunityIcons.ttf */; };
 		2BDE40D2C83345D6A454358C /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A47B74536294E2684809364 /* libBVLinearGradient.a */; };
@@ -44,20 +46,25 @@
 		2DCD954D1E0B4F2C00145EB5 /* dailyWorkoutsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* dailyWorkoutsTests.m */; };
 		2FC7608A007F473BAB5F0C50 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3490827B35414D97BCF68B /* libRNVectorIcons.a */; };
 		351B97004E5142FABF9A3C2A /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDEBF26E6861481C868BD4CC /* EvilIcons.ttf */; };
+		3B0F4FB060424773A69BA80C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BC80823E538D450AAC7B8528 /* libz.tbd */; };
+		55A06AE5518940348A8B5246 /* libCodePush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F82A98363C5D4146AF78FA5C /* libCodePush.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		65B0463EB5DFA185A457DCF1 /* libPods-dailyWorkouts-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78AFDDF91915CAFFCCFCF9A4 /* libPods-dailyWorkouts-tvOSTests.a */; };
+		65BB3B08364C49FD8476C881 /* libAppCenterReactNativeCrashes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC32B4003F5455B89B2A143 /* libAppCenterReactNativeCrashes.a */; };
+		7ABE908C925D46B59A5A3D7B /* Colfax-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01145878100F427FB8891D06 /* Colfax-Bold.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		894D20E6DF7F446089D3B3A4 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E77E5AF5FB4345F28F96B9AE /* FontAwesome.ttf */; };
 		979D2AB730312802594A555B /* libPods-dailyWorkouts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EE2FBBA9B8DC88DCA2714C /* libPods-dailyWorkouts.a */; };
 		982E0A66706B48698958A7A9 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC8192C514954A43B7C067DB /* Zocial.ttf */; };
 		B713A15847A5A003D2E963BC /* libPods-dailyWorkouts-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C318E87E4C8674433C33C37 /* libPods-dailyWorkouts-tvOS.a */; };
-		EDAA556389A043F38A78D050 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97EE926488284960A3B19904 /* Entypo.ttf */; };
-		200802F0FD8A4F02A6CC5F13 /* Colfax-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE4C8403CDF540DDAF2499C2 /* Colfax-Black.ttf */; };
-		7ABE908C925D46B59A5A3D7B /* Colfax-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01145878100F427FB8891D06 /* Colfax-Bold.ttf */; };
 		E28A3D80FA5347CE80838C3D /* Colfax-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 403F8AFC6FD6477F8FA4F3A6 /* Colfax-Light.ttf */; };
+		E70CDE3ADF234A0DB9E6E0E8 /* libAppCenterReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71391E8D929946778E489FF6 /* libAppCenterReactNative.a */; };
 		EACAB344D6FD46029A71503D /* Colfax-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBF586DC5774F4DABA0D3F3 /* Colfax-Medium.ttf */; };
-		F3962C22880047FF9A98DBD1 /* Colfax-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A573C55ABB274FAF9ADD0019 /* Colfax-Regular.ttf */; };
+		EDAA556389A043F38A78D050 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97EE926488284960A3B19904 /* Entypo.ttf */; };
 		EF3CEF9AA41B4BD3B6F750D4 /* colfaxThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E18F15F7E3C3495F967F8D4F /* colfaxThin.ttf */; };
+		F3962C22880047FF9A98DBD1 /* Colfax-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A573C55ABB274FAF9ADD0019 /* Colfax-Regular.ttf */; };
+		FC7FCF276D6147BCB4454BFF /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0DC3AC4AAF045D8BEC38888 /* AppCenter-Config.plist */; };
+		FE956285B3194E96967B0130 /* libAppCenterReactNativeAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EAAA2738A0D741AEA908E687 /* libAppCenterReactNativeAnalytics.a */; };
 		FF60B08FEAB24C34922406B8 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F2914EB56FB40379A9768D0 /* Feather.ttf */; };
 /* End PBXBuildFile section */
 
@@ -279,6 +286,41 @@
 			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
 			remoteInfo = "double-conversion-tvOS";
 		};
+		4BDA507D1FCC91B000A6EDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90280CC6F1A14C6092DF1788 /* AppCenterReactNative.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C35AEC211EF91F9300931F0C;
+			remoteInfo = AppCenterReactNative;
+		};
+		4BDA50C21FCC91C200A6EDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5DB402D06534826A1446415 /* AppCenterReactNativeAnalytics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 548694001D8384E600E6685A;
+			remoteInfo = AppCenterReactNativeAnalytics;
+		};
+		4BDA50FA1FCC91CE00A6EDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA25A232CB8D43B18FA375E4 /* AppCenterReactNativeCrashes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5419C2701D824AA700DDF3A1;
+			remoteInfo = AppCenterReactNativeCrashes;
+		};
+		4BDA51271FCC924900A6EDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA206B6AF374AC690BA7443 /* CodePush.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = CodePush;
+		};
+		4BDA51291FCC924900A6EDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA206B6AF374AC690BA7443 /* CodePush.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F886647B1F4ADB500036D01B;
+			remoteInfo = "CodePush-tvOS";
+		};
 		5E9157321DD0AC6500FF2AA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */;
@@ -319,6 +361,7 @@
 		00E356EE1AD99517003FC87E /* dailyWorkoutsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dailyWorkoutsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* dailyWorkoutsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dailyWorkoutsTests.m; sourceTree = "<group>"; };
+		01145878100F427FB8891D06 /* Colfax-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Colfax-Bold.ttf"; path = "../assets/fonts/Colfax-Bold.ttf"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* dailyWorkouts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dailyWorkouts.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -337,13 +380,17 @@
 		2C318E87E4C8674433C33C37 /* libPods-dailyWorkouts-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dailyWorkouts-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* dailyWorkouts-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dailyWorkouts-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* dailyWorkouts-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dailyWorkouts-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F2914EB56FB40379A9768D0 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		327886BF6C9BC3DF4A4FF6E5 /* Pods-dailyWorkouts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dailyWorkouts.release.xcconfig"; path = "Pods/Target Support Files/Pods-dailyWorkouts/Pods-dailyWorkouts.release.xcconfig"; sourceTree = "<group>"; };
 		3E07437C1ED6423592178980 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		403F8AFC6FD6477F8FA4F3A6 /* Colfax-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Colfax-Light.ttf"; path = "../assets/fonts/Colfax-Light.ttf"; sourceTree = "<group>"; };
+		5BC32B4003F5455B89B2A143 /* libAppCenterReactNativeCrashes.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNativeCrashes.a; sourceTree = "<group>"; };
 		5DA090F6163F8BEA2DB7483F /* Pods-dailyWorkouts-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dailyWorkouts-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-dailyWorkouts-tvOS/Pods-dailyWorkouts-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		62D6ABFE0B997E6E5F563DF5 /* Pods-dailyWorkouts-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dailyWorkouts-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dailyWorkouts-tvOSTests/Pods-dailyWorkouts-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		6A47B74536294E2684809364 /* libBVLinearGradient.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libBVLinearGradient.a; sourceTree = "<group>"; };
 		6F661F419CE74CA10BB303CB /* Pods-dailyWorkoutsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dailyWorkoutsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dailyWorkoutsTests/Pods-dailyWorkoutsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		71391E8D929946778E489FF6 /* libAppCenterReactNative.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNative.a; sourceTree = "<group>"; };
 		73B858568EA5403D930D33EE /* RCTFBSDK.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTFBSDK.xcodeproj; path = "../node_modules/react-native-fbsdk/ios/RCTFBSDK.xcodeproj"; sourceTree = "<group>"; };
 		78AFDDF91915CAFFCCFCF9A4 /* libPods-dailyWorkouts-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dailyWorkouts-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
@@ -351,24 +398,29 @@
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		86918A1A1DE7B3DAB195D6F6 /* Pods-dailyWorkoutsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dailyWorkoutsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dailyWorkoutsTests/Pods-dailyWorkoutsTests.release.xcconfig"; sourceTree = "<group>"; };
 		8D640387B04E43FAA6E5AEB3 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		90280CC6F1A14C6092DF1788 /* AppCenterReactNative.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNative.xcodeproj; path = ../node_modules/appcenter/ios/AppCenterReactNative.xcodeproj; sourceTree = "<group>"; };
 		97EE926488284960A3B19904 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		A573C55ABB274FAF9ADD0019 /* Colfax-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Colfax-Regular.ttf"; path = "../assets/fonts/Colfax-Regular.ttf"; sourceTree = "<group>"; };
+		A5DB402D06534826A1446415 /* AppCenterReactNativeAnalytics.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNativeAnalytics.xcodeproj; path = "../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics.xcodeproj"; sourceTree = "<group>"; };
 		ABE7A1AC5CA042BEAA2B2EAA /* Pods-dailyWorkouts-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dailyWorkouts-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dailyWorkouts-tvOSTests/Pods-dailyWorkouts-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD602C1B41404F86A35654FF /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		BC02424EF35242D39287E8DD /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
+		BC80823E538D450AAC7B8528 /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		BE3490827B35414D97BCF68B /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVectorIcons.a; sourceTree = "<group>"; };
+		BFA206B6AF374AC690BA7443 /* CodePush.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = CodePush.xcodeproj; path = "../node_modules/react-native-code-push/ios/CodePush.xcodeproj"; sourceTree = "<group>"; };
+		C0DC3AC4AAF045D8BEC38888 /* AppCenter-Config.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "AppCenter-Config.plist"; path = "dailyWorkouts/AppCenter-Config.plist"; sourceTree = "<group>"; };
 		DB04797E25ACA292149FB7F4 /* Pods-dailyWorkouts-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dailyWorkouts-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dailyWorkouts-tvOS/Pods-dailyWorkouts-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		DC8192C514954A43B7C067DB /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		DE4C8403CDF540DDAF2499C2 /* Colfax-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Colfax-Black.ttf"; path = "../assets/fonts/Colfax-Black.ttf"; sourceTree = "<group>"; };
+		E18F15F7E3C3495F967F8D4F /* colfaxThin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = colfaxThin.ttf; path = ../assets/fonts/colfaxThin.ttf; sourceTree = "<group>"; };
 		E60EBEE21E24499F8AE2BF09 /* libRCTFBSDK.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTFBSDK.a; sourceTree = "<group>"; };
 		E77E5AF5FB4345F28F96B9AE /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		E7EE2FBBA9B8DC88DCA2714C /* libPods-dailyWorkouts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dailyWorkouts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA25A232CB8D43B18FA375E4 /* AppCenterReactNativeCrashes.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNativeCrashes.xcodeproj; path = "../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes.xcodeproj"; sourceTree = "<group>"; };
+		EAAA2738A0D741AEA908E687 /* libAppCenterReactNativeAnalytics.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNativeAnalytics.a; sourceTree = "<group>"; };
+		F82A98363C5D4146AF78FA5C /* libCodePush.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libCodePush.a; sourceTree = "<group>"; };
+		FCBF586DC5774F4DABA0D3F3 /* Colfax-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Colfax-Medium.ttf"; path = "../assets/fonts/Colfax-Medium.ttf"; sourceTree = "<group>"; };
 		FDEBF26E6861481C868BD4CC /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
-		DE4C8403CDF540DDAF2499C2 /* Colfax-Black.ttf */ = {isa = PBXFileReference; name = "Colfax-Black.ttf"; path = "../assets/fonts/Colfax-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		01145878100F427FB8891D06 /* Colfax-Bold.ttf */ = {isa = PBXFileReference; name = "Colfax-Bold.ttf"; path = "../assets/fonts/Colfax-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		403F8AFC6FD6477F8FA4F3A6 /* Colfax-Light.ttf */ = {isa = PBXFileReference; name = "Colfax-Light.ttf"; path = "../assets/fonts/Colfax-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FCBF586DC5774F4DABA0D3F3 /* Colfax-Medium.ttf */ = {isa = PBXFileReference; name = "Colfax-Medium.ttf"; path = "../assets/fonts/Colfax-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A573C55ABB274FAF9ADD0019 /* Colfax-Regular.ttf */ = {isa = PBXFileReference; name = "Colfax-Regular.ttf"; path = "../assets/fonts/Colfax-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E18F15F7E3C3495F967F8D4F /* colfaxThin.ttf */ = {isa = PBXFileReference; name = "colfaxThin.ttf"; path = "../assets/fonts/colfaxThin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2F2914EB56FB40379A9768D0 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -400,6 +452,11 @@
 				1327A73B51974D758EEC217B /* libRCTFBSDK.a in Frameworks */,
 				2FC7608A007F473BAB5F0C50 /* libRNVectorIcons.a in Frameworks */,
 				2BDE40D2C83345D6A454358C /* libBVLinearGradient.a in Frameworks */,
+				E70CDE3ADF234A0DB9E6E0E8 /* libAppCenterReactNative.a in Frameworks */,
+				FE956285B3194E96967B0130 /* libAppCenterReactNativeAnalytics.a in Frameworks */,
+				65BB3B08364C49FD8476C881 /* libAppCenterReactNativeCrashes.a in Frameworks */,
+				55A06AE5518940348A8B5246 /* libCodePush.a in Frameworks */,
+				3B0F4FB060424773A69BA80C /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +553,7 @@
 				2C318E87E4C8674433C33C37 /* libPods-dailyWorkouts-tvOS.a */,
 				78AFDDF91915CAFFCCFCF9A4 /* libPods-dailyWorkouts-tvOSTests.a */,
 				16E46B83477FAFCC3B327FAD /* libPods-dailyWorkoutsTests.a */,
+				BC80823E538D450AAC7B8528 /* libz.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -589,6 +647,10 @@
 				E60EBEE21E24499F8AE2BF09 /* libRCTFBSDK.a */,
 				BE3490827B35414D97BCF68B /* libRNVectorIcons.a */,
 				6A47B74536294E2684809364 /* libBVLinearGradient.a */,
+				71391E8D929946778E489FF6 /* libAppCenterReactNative.a */,
+				EAAA2738A0D741AEA908E687 /* libAppCenterReactNativeAnalytics.a */,
+				5BC32B4003F5455B89B2A143 /* libAppCenterReactNativeCrashes.a */,
+				F82A98363C5D4146AF78FA5C /* libCodePush.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -597,6 +659,39 @@
 			isa = PBXGroup;
 			children = (
 				4B72557E1F4EA96500BA574A /* libRCTFBSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BDA507A1FCC91B000A6EDEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BDA507E1FCC91B000A6EDEF /* libAppCenterReactNative.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BDA50BF1FCC91C200A6EDEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BDA50C31FCC91C200A6EDEF /* libAppCenterReactNativeAnalytics.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BDA50F71FCC91CD00A6EDEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BDA50FB1FCC91CE00A6EDEF /* libAppCenterReactNativeCrashes.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BDA511E1FCC924900A6EDEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BDA51281FCC924900A6EDEF /* libCodePush.a */,
+				4BDA512A1FCC924900A6EDEF /* libCodePush.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -636,6 +731,10 @@
 				73B858568EA5403D930D33EE /* RCTFBSDK.xcodeproj */,
 				BC02424EF35242D39287E8DD /* RNVectorIcons.xcodeproj */,
 				2822832792944C3BA4A2E237 /* BVLinearGradient.xcodeproj */,
+				90280CC6F1A14C6092DF1788 /* AppCenterReactNative.xcodeproj */,
+				A5DB402D06534826A1446415 /* AppCenterReactNativeAnalytics.xcodeproj */,
+				EA25A232CB8D43B18FA375E4 /* AppCenterReactNativeCrashes.xcodeproj */,
+				BFA206B6AF374AC690BA7443 /* CodePush.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -660,6 +759,7 @@
 				073626CCFAFF0321D719E245 /* Frameworks */,
 				E5258224FAF840B39543BE35 /* Resources */,
 				4B63E2101FBA2E9F00FBBE0B /* Recovered References */,
+				C0DC3AC4AAF045D8BEC38888 /* AppCenter-Config.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -800,6 +900,10 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 628H65Z5XL;
+						ProvisioningStyle = Manual;
+					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
@@ -824,8 +928,24 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 4BDA507A1FCC91B000A6EDEF /* Products */;
+					ProjectRef = 90280CC6F1A14C6092DF1788 /* AppCenterReactNative.xcodeproj */;
+				},
+				{
+					ProductGroup = 4BDA50BF1FCC91C200A6EDEF /* Products */;
+					ProjectRef = A5DB402D06534826A1446415 /* AppCenterReactNativeAnalytics.xcodeproj */;
+				},
+				{
+					ProductGroup = 4BDA50F71FCC91CD00A6EDEF /* Products */;
+					ProjectRef = EA25A232CB8D43B18FA375E4 /* AppCenterReactNativeCrashes.xcodeproj */;
+				},
+				{
 					ProductGroup = 4B016EFB1F5478E700599120 /* Products */;
 					ProjectRef = 2822832792944C3BA4A2E237 /* BVLinearGradient.xcodeproj */;
+				},
+				{
+					ProductGroup = 4BDA511E1FCC924900A6EDEF /* Products */;
+					ProjectRef = BFA206B6AF374AC690BA7443 /* CodePush.xcodeproj */;
 				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
@@ -1094,6 +1214,41 @@
 			remoteRef = 4B72559F1F4EA96600BA574A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		4BDA507E1FCC91B000A6EDEF /* libAppCenterReactNative.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAppCenterReactNative.a;
+			remoteRef = 4BDA507D1FCC91B000A6EDEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4BDA50C31FCC91C200A6EDEF /* libAppCenterReactNativeAnalytics.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAppCenterReactNativeAnalytics.a;
+			remoteRef = 4BDA50C21FCC91C200A6EDEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4BDA50FB1FCC91CE00A6EDEF /* libAppCenterReactNativeCrashes.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAppCenterReactNativeCrashes.a;
+			remoteRef = 4BDA50FA1FCC91CE00A6EDEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4BDA51281FCC924900A6EDEF /* libCodePush.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCodePush.a;
+			remoteRef = 4BDA51271FCC924900A6EDEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4BDA512A1FCC924900A6EDEF /* libCodePush.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCodePush.a;
+			remoteRef = 4BDA51291FCC924900A6EDEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1155,6 +1310,7 @@
 				F3962C22880047FF9A98DBD1 /* Colfax-Regular.ttf in Resources */,
 				EF3CEF9AA41B4BD3B6F750D4 /* colfaxThin.ttf in Resources */,
 				FF60B08FEAB24C34922406B8 /* Feather.ttf in Resources */,
+				FC7FCF276D6147BCB4454BFF /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1463,12 +1619,20 @@
 					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 				INFOPLIST_FILE = dailyWorkoutsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1493,12 +1657,20 @@
 					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 				INFOPLIST_FILE = dailyWorkoutsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1517,13 +1689,20 @@
 			baseConfigurationReference = 21885A105B93C8DBE324BB49 /* Pods-dailyWorkouts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 628H65Z5XL;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 				INFOPLIST_FILE = dailyWorkouts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1532,7 +1711,10 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.riverlabs.daily;
 				PRODUCT_NAME = dailyWorkouts;
+				PROVISIONING_PROFILE = "904de0c2-2a85-4a5d-96b7-358a1df7a713";
+				PROVISIONING_PROFILE_SPECIFIER = "DAILY DIST";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1542,12 +1724,19 @@
 			baseConfigurationReference = 327886BF6C9BC3DF4A4FF6E5 /* Pods-dailyWorkouts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 628H65Z5XL;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 				INFOPLIST_FILE = dailyWorkouts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1556,7 +1745,10 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.riverlabs.daily;
 				PRODUCT_NAME = dailyWorkouts;
+				PROVISIONING_PROFILE = "904de0c2-2a85-4a5d-96b7-358a1df7a713";
+				PROVISIONING_PROFILE_SPECIFIER = "DAILY DIST";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -1579,11 +1771,19 @@
 					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 				INFOPLIST_FILE = "dailyWorkouts-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1618,11 +1818,19 @@
 					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 				INFOPLIST_FILE = "dailyWorkouts-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1658,6 +1866,10 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.dailyWorkouts-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1683,6 +1895,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",

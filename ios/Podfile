@@ -6,6 +6,9 @@ target 'dailyWorkouts' do
   # use_frameworks!
 
   # Pods for dailyWorkouts
+  pod 'AppCenter/Crashes', '~> 1.0.1'
+  pod 'AppCenter/Analytics', '~> 1.0.1'
+  pod 'AppCenterReactNativeShared', '~> 1.0.1'
   pod 'FBSDKCoreKit'
   pod 'FBSDKLoginKit'
   pod 'FBSDKShareKit'
