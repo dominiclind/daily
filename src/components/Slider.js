@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import * as Animatable from 'react-native-animatable';
 
 import {
   View,
@@ -7,11 +8,11 @@ import {
   ScrollView
 } from 'react-native';
 
-import { Text,H1,H2 } from 'app/components/Type';
+import { Text,H1,H2,H3 } from 'app/components/Type';
 
 const Slider = (props) => (
-  <View style={styles.component}>
-  	<H2 style={styles.title}>{props.title}</H2>
+  <Animatable.View animation="fadeIn" duration={850} style={styles.component}>
+  	<H3 style={styles.title}>{props.title}</H3>
   	<Animated.ScrollView
   		horizontal
       showsHorizontalScrollIndicator={false}
@@ -20,7 +21,7 @@ const Slider = (props) => (
   	>
   		{props.children}
   	</Animated.ScrollView>
-  </View>
+  </Animatable.View>
 )
 
 
@@ -31,7 +32,7 @@ const styles = StyleSheet.create({
   },
   title: {
   	margin: 20,
-  	marginTop: 40
+  	marginTop: 20
   }
 });
 

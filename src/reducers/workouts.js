@@ -7,7 +7,7 @@ import {
 const initialState = {
   loading: false,
   workouts: [],
-  featured: []
+  sliders: []
 };
 
 export default function auth(state = initialState, action) {
@@ -22,7 +22,7 @@ export default function auth(state = initialState, action) {
         ...state,
         loading: false,
         workouts: action.workouts,
-        featured: action.featured
+        sliders: action.sliders
       }
     case GET_WORKOUTS_FAIL:
       return {

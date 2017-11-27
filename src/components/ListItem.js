@@ -11,7 +11,8 @@ import CheckLine from 'app/components/CheckLine';
 
 const COLORS = {
 	instruction : '#40C057',
-	rest: '#66D9E8'
+	rest: '#66D9E8',
+  exercise: '#FA5252'
 };
 
 const ListItem = (props) => (
@@ -24,8 +25,10 @@ const ListItem = (props) => (
 	  >
 	  	{props.type == 'instruction' || props.type == 'rest' ? (
 	  		<View style={[styles.indicator, {backgroundColor: COLORS[props.type]}]} />
-	  	) : null}
-			<CheckLine show={props.show}>
+	  	) : (
+        <View style={[styles.indicator, {backgroundColor: COLORS[props.type]}]} />
+      )}
+			<CheckLine show={props.checked}>
 		  	<H3 
 		  		style={[
 		  			styles.label,

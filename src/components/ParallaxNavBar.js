@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Keyboard } from 'react-native';
+import * as Animatable from 'react-native-animatable';
 
 import {
   View,
@@ -58,7 +59,7 @@ class ParallaxNavBar extends Component {
     }
 
     return (
-      <View style={{flex:1}}>
+      <Animatable.View animation="fadeIn" delay={150}  duration={500} style={{flex:1}}>
         <Animated.View style={[
           styles.component,
           props.inverted ? styles.componentInverted : DEFAULT_OBJ,
@@ -116,12 +117,14 @@ class ParallaxNavBar extends Component {
           )}
         >
           <Animated.View style={[styles.navBarExpanded, navBarExpandedAnimatedStyles]}>
-            <H4 style={styles.subtitle}>Dagens pass</H4>
+            <H4 style={styles.subtitle}>{props.subtitle}</H4>
             <H1>{props.title}</H1>
           </Animated.View>
+          <Animatable.View  animation="fadeIn" delay={300} duration={400}>
           {this.props.children}
+          </Animatable.View>
         </Animated.ScrollView>
-      </View>
+      </Animatable.View>
     )
   }
 
@@ -168,7 +171,7 @@ const styles = StyleSheet.create({
   titleContainer: {
     flex: 1,
     backgroundColor: 'transparent',
-    justifyContent: 'center'
+    justifyContent: 'center',
   },
   titleImage: {
     height: 25,
@@ -185,7 +188,8 @@ const styles = StyleSheet.create({
     //fontSize: 34,
     color: 'black',
     fontWeight: '600',
-    marginBottom:-5  
+    marginBottom:-5,
+    padding: 10,
   },
   subtitle: {
     marginBottom: 0,
@@ -196,6 +200,10 @@ const styles = StyleSheet.create({
   }, 
   titleInverted: {
     color: 'black'
+  },
+  navBarExpanded: {
+    paddingLeft: 15,
+    paddingRight: 15
   },
   navText: {
     fontSize: 16,
@@ -219,7 +227,7 @@ const styles = StyleSheet.create({
     color: 'black'
   },
   content: {
-    padding: 10
+    // padding: 10
   }
 });
 

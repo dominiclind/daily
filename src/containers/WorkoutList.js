@@ -11,7 +11,11 @@ import {
 
 import {getWorkouts} from 'app/actions/workouts';
 
+import getWorkoutsBasedOnIds from 'app/utils/getWorkoutsBasedOnIds';
+
 import { Text,H1,H2 } from 'app/components/Type';
+
+import ParallaxNavBar from 'app/components/ParallaxNavBar';
 import Container from 'app/components/Container';
 import Slider from 'app/components/Slider';
 import WorkoutCard from 'app/components/WorkoutCard';
@@ -34,12 +38,24 @@ class WorkoutList extends Component {
   }
 
   render() {
-    const { featured, workouts } = this.props.workouts;
+    const { sliders, workouts, loading } = this.props.workouts;
+
+
     return (
-      <Container>
-        <Slider title="Featured">
-          {featured.map((w,i) => <WorkoutCard onPress={() => Actions.single({workout: w})} last={i == featured.length-1} key={w.id} {...w}/>)}
-        </Slider>
+      <Container
+        loading={loading}
+        // onRefresh={() => this.props.dispatch(getWorkouts())}
+      >
+        <ParallaxNavBar
+          title={'Dom bästa passen!'}
+          subtitle={'Alla pass'}
+        >
+          {sliders.map((slider,i) => (
+            <Slider key={i} title={slider.label}>
+              {getWorkoutsBasedOnIds(slider.workouts, workouts).map((w,i) => <WorkoutCard onPress={() => Actions.single({workout: w})} last={i == getWorkoutsBasedOnIds(slider.workouts, workouts).length-1} key={w.id} {...w}/>)}
+            </Slider>
+          ))}
+        </ParallaxNavBar>
       </Container>
     );
   }

@@ -20,13 +20,13 @@ API.interceptors.request.use(function (config) {
   return Promise.reject(error);
 });
 
-export function getWorkouts() {
+export function getData() {
 	return new Promise((resolve, reject) => {
 		API.get(`/dailies`).then(res => {
 	    const { data } = res;
-	    const { workouts = [], featured = [] } = data;
+	    const { workouts = [], sliders = [] } = data;
 
-	    resolve({workouts, featured});
+	    resolve({workouts, sliders});
 	  })
   }) 
 }

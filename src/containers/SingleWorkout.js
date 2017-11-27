@@ -10,9 +10,9 @@ import {
 import axios from 'axios';
 
 import { Text,H1,H2 } from 'app/components/Type';
-import Container from 'app/components/Container'
-import ParallaxNavBar from 'app/components/ParallaxNavBar'
-import ListItem from 'app/components/ListItem'
+import Container from 'app/components/Container';
+import ParallaxNavBar from 'app/components/ParallaxNavBar';
+import ListItem from 'app/components/ListItem';
 
 class SingleWorkout extends Component {
 
@@ -20,30 +20,46 @@ class SingleWorkout extends Component {
     super(props);
 
     this.state = {
-      loading: true
+      loading: true,
+      instructions : props.workout.instructions
     }
   }
 
   componentDidMount() {
-    const { dispatch } = this.props;
+    const { dispatch,workout } = this.props;
   }
 
+  toggle(index) {
+    const { instructions } = this.state;
+    
+    let newInstructions = instructions; 
+    instructions[index].checked = !instructions[index].checked;
+    this.setState({instructions: newInstructions});
+  }
   render() {
     const { workout } = this.props;
 
     return (
       <Container>
         <ParallaxNavBar
-          title={ workout.title}
+          title={workout.title}
+          subtitle={workout.subtitle || 'Dagens pass'}
           leftIcon="arrow-left"
           onLeft={() => Actions.pop()}
           rightIcon="heart"
           onRight={() => console.log('right')}
         >
+        <View style={{padding: 15}}>
           <Text style={{marginBottom: 40}}>{ workout.description}</Text>
           { workout.instructions.map((instruction, index) => (
-            <ListItem key={index} {...instruction}/>
+            <ListItem
+              key={index}
+              checked={this.state.instructions[index].checked}
+              onPress={() => this.toggle(index)}
+              {...instruction}
+            />
           ))}
+          </View>
         </ParallaxNavBar>
       </Container>
     );

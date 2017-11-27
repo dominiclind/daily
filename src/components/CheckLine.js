@@ -53,11 +53,12 @@ const styles = StyleSheet.create({
   },
   line: {
   	height: 3,
-  	width: '102%',
+  	width: '120%',
   	position:'absolute',
-  	top:20,
+  	top:21,
   	left: -2,
-  	backgroundColor: 'red',
+    right: 10,
+  	backgroundColor: 'black',
   }
 });
 
