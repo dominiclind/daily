@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { AsyncStorage, View } from 'react-native';
+import codePush from "react-native-code-push";
+
 
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/es/integration/react'
@@ -22,4 +24,9 @@ class Root extends Component {
   }
 }
 
-export default Root;
+let codePushOptions = {
+	checkFrequency: codePush.CheckFrequency.ON_APP_RESUME,
+ installMode: codePush.InstallMode.IMMEDIATE
+};
+
+export default codePush(codePushOptions)(Root);
