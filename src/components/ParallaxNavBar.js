@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Keyboard } from 'react-native';
 import * as Animatable from 'react-native-animatable';
+import Icon from 'react-native-vector-icons/Feather';
 
 import {
   View,
@@ -10,14 +11,13 @@ import {
   Platform,
   StatusBar,
   ScrollView,
-  Animated
+  Animated,
+  RefreshControl
 } from 'react-native';
 
 import {Text, H1, H4} from 'app/components/Type'
 
 const DEFAULT_OBJ = {};
-
-import Icon from 'react-native-vector-icons/Feather';
 
 class ParallaxNavBar extends Component {
 
@@ -109,6 +109,13 @@ class ParallaxNavBar extends Component {
       </Animated.View>
 
         <Animated.ScrollView
+          refreshControl={props.onRefresh ? (
+            <RefreshControl
+              refreshing={props.loading}
+              onRefresh={props.onRefresh}
+            />
+            ) : false
+          }
           style={styles.content}
           scrollEventThrottle={1}
           onScroll={Animated.event(
@@ -121,7 +128,7 @@ class ParallaxNavBar extends Component {
             <H1>{props.title}</H1>
           </Animated.View>
           <Animatable.View  animation="fadeIn" delay={300} duration={400}>
-          {this.props.children}
+            {this.props.children}
           </Animatable.View>
         </Animated.ScrollView>
       </Animatable.View>
@@ -203,7 +210,7 @@ const styles = StyleSheet.create({
   },
   navBarExpanded: {
     paddingLeft: 15,
-    paddingRight: 15
+    paddingRight: 15,
   },
   navText: {
     fontSize: 16,
@@ -226,9 +233,6 @@ const styles = StyleSheet.create({
   iconInverted: {
     color: 'black'
   },
-  content: {
-    // padding: 10
-  }
 });
 
 

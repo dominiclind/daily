@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import {
   View,
   StyleSheet,
-  TouchableOpacity
+  TouchableWithoutFeedback
 } from 'react-native';
 
 import { Text,H1,H2,H3 } from 'app/components/Type';
@@ -16,7 +16,7 @@ const COLORS = {
 };
 
 const ListItem = (props) => (
-	<TouchableOpacity onPress={props.onPress}>
+	<TouchableWithoutFeedback onPress={props.onPress}>
 	  <View
 	  	style={[
 	  		styles.component,
@@ -39,7 +39,7 @@ const ListItem = (props) => (
 		  	</H3>
 	  	</CheckLine>
 	  </View>
-  </TouchableOpacity>
+  </TouchableWithoutFeedback>
 )
 
 

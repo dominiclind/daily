@@ -21,10 +21,19 @@ class CheckLine extends Component {
   componentDidMount() {
   }
 
-  componentWillUpdate(nextProps){
-  	Animated.spring(this.state.show, {
-  		toValue: nextProps.show ? 1 : 0,
-  	}).start()
+  componentWillUpdate(nextProps, nextState) {
+    if(nextProps.show !== this.props.show){
+      if(nextProps.show){
+        Animated.spring(this.state.show, {
+          toValue: 1,
+        }).start();
+      } else {
+        Animated.timing(this.state.show, {
+          toValue: 0,
+          duration: 200,
+        }).start();
+      }
+    }
   }
 
   render() {

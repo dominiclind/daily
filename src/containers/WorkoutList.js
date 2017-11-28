@@ -41,6 +41,8 @@ class WorkoutList extends Component {
     const { sliders, workouts, loading } = this.props.workouts;
 
 
+    console.log(workouts)
+    console.log(sliders);
     return (
       <Container
         loading={loading}
@@ -49,15 +51,17 @@ class WorkoutList extends Component {
         <ParallaxNavBar
           title={'Dom bästa passen!'}
           subtitle={'Alla pass'}
+          loading={loading}
+          onRefresh={() => this.props.dispatch(getWorkouts())}
         >
           {sliders.map((slider,i) => (
-            <Slider key={i} title={slider.label}>
-              {getWorkoutsBasedOnIds(slider.workouts, workouts).map((w,i) => <WorkoutCard onPress={() => Actions.single({workout: w})} last={i == getWorkoutsBasedOnIds(slider.workouts, workouts).length-1} key={w.id} {...w}/>)}
+            <Slider key={i} title={slider.title}>
+              {getWorkoutsBasedOnIds(slider.workouts, workouts).map((w,i) => <WorkoutCard onPress={() => Actions.single({workout: w})} last={i == getWorkoutsBasedOnIds(slider.workouts, workouts).length-1} key={i} {...w}/>)}
             </Slider>
           ))}
         </ParallaxNavBar>
       </Container>
-    );
+    )
   }
 }
 

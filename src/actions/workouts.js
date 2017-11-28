@@ -20,5 +20,9 @@ export function getWorkouts() {
 
 			dispatch({type: GET_WORKOUTS_SUCCESS, workouts, sliders})
 		})
+		.catch(error => {
+			dispatch({type: GET_WORKOUTS_FAIL})
+		})
 	}
 }
+

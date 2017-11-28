@@ -19,6 +19,8 @@ class SingleWorkout extends Component {
   constructor(props) {
     super(props);
 
+
+    console.log(props.workout);
     this.state = {
       loading: true,
       instructions : props.workout.instructions
@@ -30,9 +32,10 @@ class SingleWorkout extends Component {
   }
 
   toggle(index) {
+    console.log('toggle');
     const { instructions } = this.state;
     
-    let newInstructions = instructions; 
+    let newInstructions = [...instructions]; 
     instructions[index].checked = !instructions[index].checked;
     this.setState({instructions: newInstructions});
   }
@@ -50,7 +53,9 @@ class SingleWorkout extends Component {
           onRight={() => console.log('right')}
         >
         <View style={{padding: 15}}>
-          <Text style={{marginBottom: 40}}>{ workout.description}</Text>
+          <View style={styles.descWrapper}>
+          <Text style={{marginBottom: 20}}>{ workout.description}</Text>
+          </View>
           { workout.instructions.map((instruction, index) => (
             <ListItem
               key={index}

@@ -27,7 +27,7 @@ if (__DEV__) {
 export default function configureStore(initialState) {
   const store = createStore(reducers, initialState, enhancer);
   let persistor = persistStore(store)
-
+  // persistor.purge()
   // const store = Reactotron.createStore(rootReducer, initialState, enhancer);
 
   if (module.hot) {

@@ -16,7 +16,7 @@ const Slider = (props) => (
   	<Animated.ScrollView
   		horizontal
       showsHorizontalScrollIndicator={false}
-      contentContainerStyle={{paddingLeft: 20, paddingRight: 20, paddingBottom: 10}}
+      contentContainerStyle={{paddingLeft: 15, paddingRight: 20, paddingBottom: 10}}
 
   	>
   		{props.children}
@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     backgroundColor:'transparent',
   },
   title: {
-  	margin: 20,
+  	margin: 15,
   	marginTop: 20
   }
 });
